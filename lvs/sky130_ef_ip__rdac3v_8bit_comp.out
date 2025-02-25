@@ -336,9 +336,9 @@ dvss                                       |dvss
 out                                        |out                                        
 ena                                        |ena                                        
 vss                                        |vss                                        
-vdd                                        |vdd                                        
 Vlow                                       |Vlow                                       
 Vhigh                                      |Vhigh                                      
+vdd                                        |vdd                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_ef_ip__rdac3v_8bit and sky130_ef_ip__rdac3v_8bit are equivalent.
