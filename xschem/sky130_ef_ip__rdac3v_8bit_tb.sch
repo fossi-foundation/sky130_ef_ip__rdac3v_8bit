@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -72,63 +73,15 @@ N -840 -2700 -780 -2700 {
 lab=GND}
 N -840 -2620 -780 -2620 {
 lab=GND}
-N -780 -2600 -220 -2600 {
-lab=b7}
-N -220 -2640 -220 -2600 {
-lab=b7}
-N -220 -2640 -120 -2640 {
-lab=b7}
-N -780 -2680 -300 -2680 {
-lab=b6}
-N -300 -2680 -300 -2660 {
-lab=b6}
-N -300 -2660 -120 -2660 {
-lab=b6}
 N -780 -2760 -630 -2760 {
 lab=b5}
 N -630 -2760 -630 -2700 {
-lab=b5}
-N -630 -2700 -290 -2700 {
-lab=b5}
-N -290 -2700 -290 -2680 {
-lab=b5}
-N -290 -2680 -120 -2680 {
 lab=b5}
 N -780 -2840 -620 -2840 {
 lab=b4}
 N -620 -2840 -620 -2720 {
 lab=b4}
-N -620 -2720 -280 -2720 {
-lab=b4}
-N -280 -2720 -280 -2710 {
-lab=b4}
-N -280 -2710 -280 -2700 {
-lab=b4}
-N -280 -2700 -120 -2700 {
-lab=b4}
-N -780 -2920 -270 -2920 {
-lab=b3}
-N -270 -2920 -270 -2720 {
-lab=b3}
-N -270 -2720 -120 -2720 {
-lab=b3}
-N -780 -3000 -260 -3000 {
-lab=b2}
-N -260 -3000 -260 -2740 {
-lab=b2}
-N -260 -2740 -120 -2740 {
-lab=b2}
-N -780 -3080 -250 -3080 {
-lab=b1}
-N -250 -3080 -250 -2760 {
-lab=b1}
-N -250 -2760 -120 -2760 {
-lab=b1}
 N -780 -3160 -240 -3160 {
-lab=b0}
-N -240 -3160 -240 -2780 {
-lab=b0}
-N -240 -2780 -120 -2780 {
 lab=b0}
 N 270 -2710 270 -2690 {
 lab=out}
@@ -144,6 +97,22 @@ N 340 -2630 340 -2520 {
 lab=GND}
 N 270 -2520 340 -2520 {
 lab=GND}
+N -780 -2920 -320 -2920 {
+lab=b3}
+N -780 -3000 -310 -3000 {
+lab=b2}
+N -780 -3080 -290 -3080 {
+lab=b1}
+N -780 -2680 -410 -2680 {
+lab=b6}
+N -780 -2600 -410 -2600 {
+lab=b7}
+N -630 -2700 -370 -2700 {
+lab=b5}
+N -620 -2720 -340 -2720 {
+lab=b4}
+N -200 -2780 -120 -2780 {
+lab=b[7:0]}
 C {sky130_ef_ip__rdac3v_8bit.sym} 30 -2710 0 0 {name=x1}
 C {devices/opin.sym} 380 -2710 0 0 {name=p1 lab=out}
 C {devices/opin.sym} 250 -2900 0 0 {name=p2 lab=vdd3v3}
@@ -187,3 +156,4 @@ C {devices/lab_pin.sym} -370 -2700 0 1 {name=l7 sig_type=std_logic lab=b5}
 C {devices/lab_pin.sym} -410 -2680 0 1 {name=l8 sig_type=std_logic lab=b6}
 C {devices/lab_pin.sym} -410 -2600 0 1 {name=l9 sig_type=std_logic lab=b7}
 C {devices/lab_pin.sym} -400 -2800 0 1 {name=l10 sig_type=std_logic lab=ena}
+C {lab_pin.sym} -200 -2780 0 0 {name=p3 sig_type=std_logic lab=b7,b6,b5,b4,b3,b2,b1,b0}
