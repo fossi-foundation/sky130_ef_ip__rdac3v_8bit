@@ -1,5 +1,4 @@
 runs/*
-netlist/*
 xschem/*.spice
 mag/*.ext
 mag/*.res.ext
